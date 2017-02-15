@@ -5,7 +5,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-from ldap3_sync import __version__ as version
+from petl_ldap3 import __version__ as version
 
 long_description = 'Please see the documentation at the `project page <https://github.com/PGower/petl_ldap3>`_ .'
 
@@ -21,7 +21,7 @@ package_data = {
 #     readme = f.read()
 
 setup(
-    name='django-ldap3-sync',
+    name='petl_ldap3',
     version=version,
     description='A petl view class for ldap data.',
     long_description=long_description,
